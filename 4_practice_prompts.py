@@ -46,8 +46,8 @@ print("Today is " + date + ", YAY!!!!!")
 
 ###########################String Practice##################################
 #syntax is the way we write code
-# print("Hello World")
-# name = "John"
+print("Hello World")
+name = "John"
 #in other languages, this is different
 # in javascript for example, you define
 #variables with let or const or var
@@ -74,8 +74,7 @@ print("new_beetle_summary")
 
 reverse_beetle_summary = blue_beetle_summary[::-1]
 print(reverse_beetle_summary)
-
-##########################input practice#############################################
+# ##########################input practice#############################################
 #input is when we ask the user for input/data
 # Ask the user to enter their name.
 
@@ -85,19 +84,28 @@ print(reverse_beetle_summary)
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
 
 question1 = input("what are you doing in class today?")
-question2 = input("who is your teacher?")
-print(int(question ))
+question2 = input("who is your first period teacher?")
+print("I have my first class with " + question2 + ", and we are doing " + question1)
 
 # Input Practice #2
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # Where are you from?
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
+question5 = input("where are you from?")
+print("Ive never been to " + question5 + ", tell me more!")
+
 
 # Input Practice #3
 # Write Python code that displays the user's full name on the screen, by allowing them to enter their first and last name with the following instructions:
 # What is your name?
 # What is your surname?
 # The code must be able to print the user's first and last name on the screen, separated by a space.
+question3 = input("What is your first name?")
+question4 = input("What is your last name?")
+print("Nice to meet you " + question3 +  question4)
 
 # Exercise:
 # Write a program that asks the user for their name and favorite color, then prints a message using both pieces of information.
+name = input("What is your name?")
+color = input("What is your favorite color?")
+print(f"Nice to meet you, {name}! {color.capitalize()} is a beautiful color.")
