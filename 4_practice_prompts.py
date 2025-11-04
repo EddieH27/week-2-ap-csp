@@ -1,4 +1,4 @@
-e_
+
 # ----------------------------------------
 # Print Practice Exercises
 # ----------------------------------------
@@ -63,16 +63,17 @@ blue_beetle_summary = "Jaime Reyes suddenly finds himself in possession of an an
 print(len(blue_beetle_summary))
 # upper case the entire summary
 print(blue_beetle_summary.upper())
-# print the summary
-print(blue_beetle_summary)
-# print the summary in lowercase
-print(blue_beetle_summary.lower())
-# replace the word blue with red
-# print the summary
-# string index the word beetle and print it out
-# print the last word of the summary
-# print the summary in reverse
 
+print(blue_beetle_summary)
+
+print(blue_beetle_summary.lower())
+
+new_beetle_summary = blue_beetle_summary.replace("blue" , "red")
+print("new_beetle_summary")
+
+
+reverse_beetle_summary = blue_beetle_summary[::-1]
+print(reverse_beetle_summary)
 
 ##########################input practice#############################################
 #input is when we ask the user for input/data
@@ -82,6 +83,10 @@ print(blue_beetle_summary.lower())
 # Write Python code that allows the user to enter their answer, by making them the following question:
 # What are you learning today?
 # Your code must be able to print to the screen whatever is entered by the user (use the print function).
+
+question1 = input("what are you doing in class today?")
+question2 = input("who is your teacher?")
+print(int(question ))
 
 # Input Practice #2
 # Write Python code that allows the user to enter their answer, by making them the following question:
@@ -96,12 +101,3 @@ print(blue_beetle_summary.lower())
 
 # Exercise:
 # Write a program that asks the user for their name and favorite color, then prints a message using both pieces of information.
-
-
-
-
-
-
-
-
-
